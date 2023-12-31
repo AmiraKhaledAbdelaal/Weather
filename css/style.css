@@ -1,0 +1,87 @@
+body{
+    background-color: #1e202b;
+}
+.link-logo a{
+    font-size: 15px;
+}
+.links-weather a{
+    margin: 10px;
+    transition-property: All 2s;
+    color: #fff;
+}
+.links-weather .active{
+    border: 2px solid #009ab7;
+    border-radius: 20px;
+    color: #009ab7;
+}
+.links-weather a:hover{
+    border: 2px solid #009ab7;
+    border-radius: 20px;
+    color: #009ab7;
+}
+.find{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    height: 350px;
+}
+
+.find input{
+    padding: 15px;
+    background-color:#1e202b;
+    border: none;
+    border-radius: 50px;
+}
+.find button{
+    background-color: #009ab7;
+    color: #fff;
+}
+.find input:focus{
+    background-color:#1e202b;
+    box-shadow: none;
+}
+.find input::placeholder{
+    color: gray;
+    padding: 10px;
+}
+.find-table{
+    color: #fff;
+    /* padding: 20px; */
+}
+.find-table .title{
+    background-color: #2d303d;
+}
+.find-table .descripe{
+    background-color: #323544;
+}
+.find-table .num h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.find-table .location{
+    font-size: 30px;
+    color: gray;
+}
+.find-table .descripe .text-blue{
+    color: #009ab7;
+}
+/* .blackk{
+    background-color: #1e202b;
+    height: auto;
+} */
+.col1{
+    padding: 0px;
+    margin: 0px;
+}
+.col2{
+    padding:0px;
+    margin: 0;
+}
+.col-center .title{
+    background-color:#222530 ;
+}
+.col-center .descripe{
+    background-color: #262936;
+}
+#search-bar::placeholder{
+    color: #fff;
+}
